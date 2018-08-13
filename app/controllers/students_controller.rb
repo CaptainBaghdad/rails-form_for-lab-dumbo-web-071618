@@ -16,7 +16,7 @@ class StudentsController < ApplicationController
   end 
   
   def create 
-    @student = Student.create(title:params[:title],room_number )
+    @student = Student.create(title: params[:title], room_number: params[:room_number] )
     
   end 
   
